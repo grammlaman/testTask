@@ -1,0 +1,12 @@
+footer
+
+    - if(fancy || slick)
+        +inc('js','js/jquery-3.3.1.min.js')
+    - if(fancy)
+        +inc('js','js/jquery.fancybox.min.js')
+    - if(slick)
+        +inc('js','slick.js')
+    - if(greensock)
+        +inc('js','js/greensock.js')
+    +inc('js','https://kit.fontawesome.com/3804bf5e5c.js',true)(crossorigin="anonymous")
+    +inc('js','js/main.js',true)
